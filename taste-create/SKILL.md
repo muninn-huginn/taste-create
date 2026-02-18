@@ -47,7 +47,9 @@ This is the most important rule. Never ask two questions in one message. Ask one
 
 ### Phase-Specific Guidance
 
-**Soul and Eyes (Phases 1-2):** Use open-ended questions. Do not present multiple choice. Let the user speak freely. Listen for the unsaid — when someone says "clean," ask what clean means to them. Surface-level words hide deeper truths.
+**Soul (Phase 1):** Present each question with 3-4 curated choices that represent different directions, plus always an option for the user to write their own answer. The choices help people who feel but cannot yet name what they feel. The custom option is for people who already know. After they pick, ask a brief follow-up to deepen the answer. Listen for the unsaid — when someone says "clean," ask what clean means to them.
+
+**Eyes (Phase 2):** Start by explicitly asking the user to share visual references — URLs, screenshots, moodboards, or images they find inspiring. Say something like: "Now I need to see what you see. Share URLs of sites you love, upload screenshots, drop moodboard images — anything visual that has the feeling we just described. I'll analyze each one." Then for each reference, use WebFetch (for URLs) or Read (for images) to analyze and discuss.
 
 **Visual Reference Gathering (Phase 2):**
 - When the user provides a URL: use WebFetch to analyze the website's visual style. Extract observations about color, typography, spacing, shape, motion, imagery. Report what you see and ask "What do you love about this? What would you change?"

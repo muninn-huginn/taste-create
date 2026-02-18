@@ -27,27 +27,29 @@ Understand what the project should *feel* like, not what it should look like. Ev
 
 1. **Open with feeling.** Your first question should be about emotion, not aesthetics. Do not ask about colors, fonts, or layouts. Ask about feelings, memories, places, voices.
 
-2. **Ask one question at a time.** Wait for the answer. Let the answer inform your next question. Do not use a fixed script — pull from the question bank (see `question-bank.md`) but adapt based on what the user says.
+2. **Present choices with every question.** Each question should come with 3-4 curated options that represent meaningfully different directions, plus always a way for the user to write their own answer. The choices help people who feel but cannot yet name what they feel — seeing options crystallizes instinct. Use the AskUserQuestion tool to present these. The "Other" option is always available automatically.
 
-3. **Listen for the unsaid.** When someone says "I want it to feel professional," ask what professional means to them. When they say "clean," ask what clean feels like. Surface-level words hide deeper truths. Your job is to find those truths.
+3. **Ask one question at a time.** Wait for the answer. Let the answer inform your next question. Do not use a fixed script — pull from the question bank (see `question-bank.md`) but adapt the choices based on what the user has already said.
 
-4. **After 3-5 exchanges, synthesize.** Write 2-3 paragraphs of philosophy prose that captures what you have heard. This is not a summary — it is an interpretation. Write it with conviction, as if you believe it. Use the user's own words where they were vivid. Add your own where the user was circling something they could not name.
+4. **Follow up after each choice.** When the user picks an option, ask a brief deepening question: "You picked [choice]. Tell me more — what does that mean to you?" or "What made you pick that over [other option]?" This turns a selection into a conversation.
 
-5. **Read it back.** Present the prose to the user and ask: "Does this capture what you mean?" If not, ask what is wrong, what is missing, what is overstated. Revise until the user says yes.
+5. **Listen for the unsaid.** When someone says "I want it to feel professional," ask what professional means to them. When they say "clean," ask what clean feels like. Surface-level words hide deeper truths. Your job is to find those truths.
+
+6. **After 3-5 exchanges, synthesize.** Write 2-3 paragraphs of philosophy prose that captures what you have heard. This is not a summary — it is an interpretation. Write it with conviction, as if you believe it. Use the user's own words where they were vivid. Add your own where the user was circling something they could not name.
+
+7. **Read it back.** Present the prose to the user and ask: "Does this capture what you mean?" If not, ask what is wrong, what is missing, what is overstated. Revise until the user says yes.
 
 ### Key Questions
 
-Pull from these, but do not read them as a checklist. Pick the question that fits the moment.
+Pull from `question-bank.md`. Each question should be presented with curated choices. Example flow:
 
-- "What should someone feel when they use this?"
-- "If this project were a physical place, what place would it be?"
-- "What's the one word you want people to think of?"
-- "Name something you find beautiful that isn't a website or app."
-- "What feeling do you want to avoid? What should this never feel like?"
-- "Is there a memory or moment that has the energy you want this project to have?"
-- "If this project had a voice, whose voice would it be?"
+**Question:** "What should someone feel when they use this?"
+**Choices:** Calm and grounded / Excited and energized / Intrigued and curious / Safe and cared for / *(user can always type their own)*
 
-See `question-bank.md` for the full bank.
+**Question:** "If this project were a physical place, what place would it be?"
+**Choices:** A quiet library / A research lab / A sunlit kitchen / A gallery opening / *(user can always type their own)*
+
+The choices are not exhaustive — they are starting points. Adapt them based on what the user has already said. If they mentioned "warmth" in a previous answer, offer choices that explore different flavors of warmth.
 
 ### How to Synthesize
 
@@ -79,7 +81,11 @@ Build a shared visual vocabulary. Words are imprecise — "warm" means different
 
 ### Process
 
-1. **Ask for references.** URLs, screenshots, brands, physical objects, places, materials, memories — anything visual. Do not limit to websites. Some of the best references come from architecture, fashion, nature, film, or physical objects.
+1. **Prompt for visual references immediately.** Open Phase 2 by explicitly asking the user to share images. Say something like:
+
+   > "Now I need to see what you see. Share anything visual that has the feeling we just described — URLs of websites you love, screenshots, moodboard images, photos of places or objects. Drop them here and I'll analyze each one. The more you share, the better I'll understand your eye."
+
+   Be direct: tell them they can paste URLs, upload screenshots, or share file paths to images. Do not wait for them to figure out what to share — prompt them.
 
 2. **For each reference, ask two questions:**
    - "What do you love about this?"

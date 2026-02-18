@@ -6,31 +6,74 @@
 
 ## Soul Questions (Phase 1)
 
-Open-ended, feeling-first. These are designed to bypass the visual and go straight to the emotional. Do not ask about colors, fonts, or layouts in this phase.
+Feeling-first questions with curated choices. Present each question with 3-4 options using the AskUserQuestion tool. The user can always type their own answer (the "Other" option is automatic). After they choose, ask a brief follow-up to deepen the answer.
 
 ### Primary Questions
 
 Start with one of these. They are the widest doors into the soul.
 
-- "What should someone feel when they use this?"
-- "If this project were a physical place, what place would it be?"
-- "What's the one word you want people to think of?"
-- "Name something you find beautiful that isn't a website or app."
-- "What feeling do you want to avoid? What should this never feel like?"
+**"What should someone feel when they use this?"**
+- Calm and grounded
+- Excited and energized
+- Intrigued and curious
+- Safe and cared for
+
+**"If this project were a physical place, what place would it be?"**
+- A quiet library
+- A research lab
+- A sunlit kitchen
+- A gallery opening
+
+**"What's the one word you want people to think of?"**
+- Honest
+- Bold
+- Elegant
+- Playful
+
+**"Name something you find beautiful that isn't a website or app."**
+- A well-worn book
+- A mechanical watch
+- A Japanese garden
+- A thunderstorm
+
+**"What feeling do you want to avoid? What should this never feel like?"**
+- Corporate or soulless
+- Cluttered or chaotic
+- Cold or intimidating
+- Boring or forgettable
 
 ### Deepening Questions
 
-Use these after the user has answered 1-2 primary questions. They dig into the specifics of what the user has already shared.
+Use these after the user has answered 1-2 primary questions. Adapt the choices based on what they've already said.
 
-- "Is there a memory or moment that has the energy you want this project to have?"
-- "If this project had a voice, whose voice would it be?"
+**"If this project had a voice, whose voice would it be?"**
+- A quiet teacher
+- A confident friend
+- A curious scientist
+- A wise storyteller
+
+**"When you imagine someone using this for the first time, what's the look on their face?"**
+- A slight smile — they feel at ease
+- Wide eyes — they're impressed
+- Leaning forward — they're curious
+- Nodding — they trust it immediately
+
+**"What's the opposite of what you want? What would make you wince?"**
+- Flashy marketing with no substance
+- Sterile corporate sameness
+- Overwhelming visual noise
+- Trying too hard to be cool
+
+**"Is there a piece of music that has the feeling you're going for?"**
+*(Open-ended — no preset choices. Let the user surprise you.)*
+
+### Follow-Up Patterns
+
+After every choice, deepen with one of these:
+- "You picked [choice]. Tell me more — what does that mean to you?"
+- "What made you pick that over [other option]?"
 - "You said [their word]. Tell me more about what that means to you."
-- "When you imagine someone using this for the first time, what's the look on their face?"
-- "What's the opposite of what you want? What would make you wince?"
-- "If someone described this project to a friend, what adjective would you want them to use?"
-- "Is there a piece of music that has the feeling you're going for?"
-- "What's the difference between what you want and 'minimalist'?" (if they lean toward restraint)
-- "What's the difference between what you want and 'fun'?" (if they lean toward energy)
+- "If you had to choose: would you rather it feel [quality A] or [quality B]?" (use two qualities from their answers that might be in tension)
 
 ### Clarifying Questions
 
@@ -40,21 +83,31 @@ Use these when the user gives a vague or surface-level answer. They help find th
 - "When you say 'modern,' what makes something feel modern versus just new?"
 - "When you say 'professional,' is that the professionalism of a law firm or a design studio?"
 - "What's an example of something that tries to be [their word] but gets it wrong?"
-- "If you had to choose: would you rather it feel [quality A] or [quality B]?" (use two qualities from their answers that might be in tension)
 
 ---
 
 ## Eyes Questions (Phase 2)
 
-Reference-gathering. These help the user surface visual inspirations and articulate what they respond to.
+Reference-gathering. Open this phase by explicitly asking the user to share visual material.
 
-### Gathering References
+### Opening Prompt
 
-- "Show me a website or app you think is beautiful."
-- "Share a URL of a website or app whose visual style resonates with you — I'll analyze it."
-- "Do you have any screenshots or moodboard images you'd like me to look at? Share the file path."
+Start Phase 2 with this direct ask:
+
+> "Now I need to see what you see. Share anything visual that captures the feeling we just described:
+>
+> - **URLs** of websites or apps you love — I'll analyze the visual style
+> - **Screenshots** or **moodboard images** — upload them or share file paths
+> - **Photos** of places, objects, or materials that have the right energy
+>
+> Drop as many as you want. The more I see, the better I understand your eye."
+
+### Gathering More References
+
+After the first round, use these to pull out more:
+
+- "What else? Any other sites, apps, or images that have the right feeling?"
 - "Is there a brand — not necessarily a tech brand — whose aesthetic you admire?"
-- "Is there a physical object, place, or material that has the feeling you described in Phase 1?"
 - "Think of a book cover, album cover, or poster that has the right energy. What is it?"
 - "Is there a space — a room, a building, a landscape — that feels the way you want this to feel?"
 - "If you could pull a screenshot from any app on your phone right now, which app has the closest vibe?"
