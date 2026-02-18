@@ -5,7 +5,7 @@ taste-lab/
 # Packaged skill files
 dist/
 
-# Development docs
+# Development plans (not the docs/ folder itself)
 docs/
 
 # Claude Code local settings

@@ -34,6 +34,16 @@ The skill will guide you through the discovery process conversationally. You can
 
 After all five phases, the skill packages the result as a standalone taste skill you can install and use across projects.
 
+## Showcase
+
+After packaging, the skill offers to build a **showcase page** — a single HTML file that demonstrates every aspect of your taste, styled by the taste itself. Open it in a browser and feel it.
+
+The showcase includes: color palette swatches, typography specimen, spacing scale, live interactive components, motion demonstrations, image treatment examples, and do/don't principle comparisons — all rendered in the taste's own CSS.
+
+Here's what a showcase looks like for a dark, terminal-inspired taste:
+
+![taste-lab showcase](https://raw.githubusercontent.com/muninn-huginn/taste-skill/main/docs/showcase-preview.png)
+
 ## What you get
 
 A complete taste skill directory:
