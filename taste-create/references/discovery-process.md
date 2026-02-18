@@ -71,6 +71,10 @@ The user confirms the prose captures their intent. They say some version of "yes
 
 Save the approved prose as `soul.md` in the style package. This file becomes the emotional foundation that every subsequent decision references.
 
+### Showcase Update
+
+After the soul is confirmed, create the showcase page. Read `showcase-guide.md` — "Progressive Building" section for details. Create the HTML file with the Hero and Footer filled in, all other sections as placeholders. Open it in the browser so the user can see the soul taking shape. Say: "Here's your taste's showcase — right now it only has the soul. It will fill in as we go."
+
 ---
 
 ## Phase 2 — Eyes (Visual References)
@@ -129,6 +133,10 @@ A curated reference list with annotations. Each entry includes:
 
 This list informs every subsequent phase. Store reference images in the `assets/moodboard/` directory if the user provides screenshots.
 
+### Showcase Update
+
+No showcase update after Phase 2. References are gathered, not rendered.
+
 ---
 
 ## Phase 3 — Dimensions (Positioning on Taste Axes)
@@ -172,6 +180,10 @@ All 7 dimensions are positioned with rationale. Each position has a connection t
 ### Output
 
 A style dimensions map: for each dimension, the position, the rationale, and how it connects to the soul. This becomes the blueprint for token derivation.
+
+### Showcase Update
+
+After all 7 dimensions are confirmed, update the showcase with directional previews. Read `showcase-guide.md` — "Progressive Building" section for details. Add rough color swatches, font family preview, spacing direction, shape preview, motion philosophy, and image treatment direction. Label these as "preview — values are approximate." Open in browser: "The dimensions are in — your showcase now has a preview of the visual direction. These values will sharpen in Phase 4."
 
 ---
 
@@ -232,6 +244,10 @@ A complete token set, organized by group:
 
 Each token includes prose context connecting it back to the soul. This becomes `tokens.md` in the style package.
 
+### Showcase Update
+
+After all token groups are approved, update the showcase with real values. Read `showcase-guide.md` — "Progressive Building" section for details. Replace all "preview" sections with exact token values. Restyle the showcase page itself using the taste's tokens — now the page *is* the taste. Open in browser: "Now the showcase is styled by the taste itself. These are the real values."
+
 ---
 
 ## Phase 5 — Validation (Test Against Components)
@@ -278,6 +294,10 @@ All 5 components are approved. The principles list is confirmed. The user feels 
 - Component examples with code (becomes `components.md`)
 - Principles list — do's and don'ts (becomes `principles.md`)
 
+### Showcase Update
+
+After all components are approved and principles confirmed, add the component gallery and do/don't comparisons to the showcase. Read `showcase-guide.md` — "Progressive Building" section for details. This is the final showcase update — every section is now complete. Open in browser: "The showcase is complete. Every section is filled. Open it and feel it."
+
 ---
 
 ## Final Packaging
@@ -313,4 +333,4 @@ After all 5 phases are complete, assemble the style package. Read `output-format
 
 When packaging is complete, tell the user:
 
-> "Your style is ready. It has a soul, a set of principles, concrete tokens, and tested components. You can install it as a Claude Code skill, and it will accompany your development — reviewing your visual output, guiding your decisions, and generating code in your style. The style is yours. It came from your feelings, your references, your choices. I just helped you find the words."
+> "Your style is ready. It has a soul, a set of principles, concrete tokens, and tested components. The showcase page you've been watching grow is complete — open it to see the full picture. You can install this as a Claude Code skill, and it will accompany your development — reviewing your visual output, guiding your decisions, and generating code in your style. The style is yours. It came from your feelings, your references, your choices. I just helped you find the words."

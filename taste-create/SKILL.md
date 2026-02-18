@@ -96,35 +96,28 @@ The templates in `assets/style-template/` define the structure of the output ski
 | `references/motion.md.template` | Phase 3 motion dimension + Phase 4 motion tokens |
 | `references/imagery.md.template` | Phase 3 image dimension + treatment rules |
 
-## Showcase
+## Showcase — Progressive Building
 
-After packaging, offer to build a showcase page — a single HTML file that demonstrates every aspect of the taste, styled by the taste itself. It is both the documentation and the proof.
+The showcase is not built at the end — it grows with the discovery process. After each phase, update the showcase and open it in the browser so the user sees their taste taking shape in real time.
 
-Read `references/showcase-guide.md` for the full specification of what to build.
+Read `references/showcase-guide.md` for the full specification, including the progressive build schedule.
 
-The showcase includes:
-1. **Hero** — the taste's name, voice, and feeling test
-2. **Color palette** — visual swatches of every color token
-3. **Typography specimen** — every size, weight, and the font in action
-4. **Spacing scale** — visual bars showing each spacing value
-5. **Component gallery** — every validated component rendered live and interactive
-6. **Motion** — interactive demonstrations (or "this style is still")
-7. **Image treatment** — sample images with the taste's filter applied
-8. **Principles** — side-by-side do/don't comparisons with live examples
-9. **Footer** — the philosophy quote
+**Build schedule:**
 
-The page uses the taste's own CSS. Open it in a browser to feel the taste immediately.
+| After Phase | What to Add |
+|-------------|-------------|
+| **Phase 1 (Soul)** | Create the HTML file. Hero + Footer filled in. All other sections as labeled placeholders. Open in browser. |
+| **Phase 2 (Eyes)** | No update. |
+| **Phase 3 (Dimensions)** | Add directional previews: rough color palette, font family, spacing direction, motion philosophy, image treatment. Label as "preview." Open in browser. |
+| **Phase 4 (Tokens)** | Replace previews with exact token values. Restyle the page with the taste's own tokens. Open in browser. |
+| **Phase 5 (Validation)** | Add component gallery and do/don't principles. Open in browser. Showcase is complete. |
+
+**Key rule:** Every time the showcase is updated, open it in the browser. The user should *see* their taste growing.
 
 Save to: `{taste-name}/assets/showcase/index.html`
-
-Build the showcase when:
-- The user asks to "see the taste", "show me", "build a demo", or "create a showcase"
-- After packaging, always offer: "Want me to build a showcase page so you can see your taste in action?"
 
 ### The Handoff
 
 When packaging is complete, tell the user:
 
-> "Your style is ready. It has a soul, a set of principles, concrete tokens, and tested components. You can install it as a Claude Code skill, and it will accompany your development — reviewing your visual output, guiding your decisions, and generating code in your style. The style is yours. It came from your feelings, your references, your choices. I just helped you find the words.
->
-> Want me to build a showcase page? It's a single HTML file that demonstrates your entire taste — colors, type, components, motion, principles — all styled by the taste itself. Open it in a browser and feel it."
+> "Your style is ready. It has a soul, a set of principles, concrete tokens, and tested components. The showcase page you've been watching grow is complete — open it to see the full picture. You can install this as a Claude Code skill, and it will accompany your development — reviewing your visual output, guiding your decisions, and generating code in your style. The style is yours. It came from your feelings, your references, your choices. I just helped you find the words."

@@ -232,11 +232,62 @@ Key showcase layout styles:
 
 ---
 
-## When to Build the Showcase
+## Progressive Building
 
-Build the showcase:
-- After packaging the taste (Phase 5 complete + packaging done)
-- When the user asks to "see the taste in action" or "show me what this looks like"
-- When the user says "build a showcase", "create a demo page", "show me the style"
+The showcase is not built at the end — it grows with the discovery process. After each phase, update the showcase with what was just discovered and open it in the browser. The user sees their taste taking shape in real time.
 
-Always offer to build the showcase after packaging: "Want me to build a showcase page? It's a single HTML file that demonstrates every aspect of your taste — you can open it in a browser to see the style in action."
+### Build Schedule
+
+| After Phase | What to Add | What the User Sees |
+|-------------|-------------|-------------------|
+| **Phase 1 — Soul** | Create the HTML file. Add Hero (name, voice, feeling test) + Footer (philosophy quote). All other sections show as labeled placeholders. | The soul of the taste, rendered in a default monospace style. The page exists. |
+| **Phase 2 — Eyes** | No showcase update. References are gathered, not rendered. | — |
+| **Phase 3 — Dimensions** | Add directional previews for each dimension: rough color palette based on position, font family preview, spacing direction, motion philosophy statement, image treatment direction. Sections are labeled "preview — values are approximate." | The shape of the taste emerging. Colors, type, and space are visible but not final. |
+| **Phase 4 — Tokens** | Replace all previews with exact token values. Real hex colors, real font sizes, real spacing scale, real shape values. Remove "preview" labels. Style the page itself with the taste's tokens. | The taste's real visual identity. Every section is now precise. |
+| **Phase 5 — Validation** | Add component gallery with approved components. Add principles do/don't comparisons with live rendered examples. | The complete showcase — every aspect of the taste, demonstrated by the taste itself. |
+
+### How to Build Progressively
+
+**Phase 1 — Create the file:**
+1. Create `{taste-name}/assets/showcase/index.html`
+2. Set up the full HTML structure with all 9 section containers
+3. Fill in Hero and Footer from the approved soul prose
+4. For unfilled sections (2–8), render a quiet placeholder: the section label and a single line like "Discovered in Phase 3" or "Discovered in Phase 4"
+5. Use a clean default style — monospace font, black on white, generous spacing. This is a safe starting point that will be replaced by the taste's own tokens later.
+6. Open in browser: "Here's your taste's showcase — right now it only has the soul. It will fill in as we go."
+
+**Phase 3 — Add dimension previews:**
+1. Read the dimension positions just confirmed
+2. For Color: generate a rough 4–6 swatch palette based on the position (e.g., "Muted earth" → sample ochre, sage, clay, stone swatches). Label as "preview."
+3. For Typography: load the font family from the position and show a specimen. Label as "preview."
+4. For Spacing: show a rough scale based on the position (generous vs. dense). Label as "preview."
+5. For Shape: show a sample rectangle with the position's character.
+6. For Motion: write the motion philosophy statement.
+7. For Image: describe the treatment direction.
+8. Open in browser: "The dimensions are in — your showcase now has a preview of the visual direction. These values are approximate; they'll sharpen in Phase 4."
+
+**Phase 4 — Replace with real tokens:**
+1. Read the approved token values
+2. Replace every preview section with exact values: real hex swatches, real type specimen, real spacing bars
+3. Update the page's own CSS to use the taste's tokens — now the showcase *is* the taste
+4. Remove all "preview" labels
+5. Open in browser: "Now the showcase is styled by the taste itself. These are the real values."
+
+**Phase 5 — Add components and principles:**
+1. Add the component gallery with approved component code
+2. Add principles do/don't with live rendered examples
+3. Final polish: ensure all sections are complete and the page is cohesive
+4. Open in browser: "The showcase is complete. Every section is filled. Open it and feel it."
+
+### Key Principle
+
+Every time the showcase is updated, open it in the browser. The user should *see* their taste growing. This is not a report generated at the end — it is a living document that evolves with the conversation.
+
+---
+
+## When to Build (Outside Discovery)
+
+The showcase can also be built or rebuilt:
+- When the user asks to "see the taste", "show me", "build a demo", or "create a showcase"
+- After packaging, if no progressive showcase was built: "Want me to build a showcase page so you can see your taste in action?"
+- When the user says "update the showcase" after changing tokens or principles

@@ -558,11 +558,11 @@ Before declaring the style package complete, verify:
 
 ---
 
-## Showcase Page (Optional)
+## Showcase Page (Progressive)
 
-After packaging the taste, offer to build a showcase page — a single HTML file that demonstrates every aspect of the taste, styled by the taste itself.
+The showcase page is built progressively during discovery, not after packaging. It grows with each phase so the user can feel their taste taking shape.
 
-Read `showcase-guide.md` for the full specification of what to build.
+Read `showcase-guide.md` for the full specification, including the progressive build schedule.
 
 ### Output
 
@@ -580,8 +580,13 @@ The showcase page:
 - Is responsive (works on mobile)
 - Uses the taste's own tokens and components to demonstrate the taste
 
-### When to Build
+### Build Schedule
 
-Build the showcase when:
-- The user asks to "see the taste", "show me", "build a demo", or "create a showcase"
-- After packaging, always offer: "Want me to build a showcase page so you can see your taste in action?"
+| After Phase | What Gets Added |
+|-------------|----------------|
+| Phase 1 (Soul) | HTML file created. Hero + Footer. Placeholders for other sections. |
+| Phase 3 (Dimensions) | Directional previews: rough colors, font family, spacing, motion, imagery. |
+| Phase 4 (Tokens) | Real values replace previews. Page restyled with the taste's own tokens. |
+| Phase 5 (Validation) | Component gallery + principles do/don't comparisons. Showcase complete. |
+
+Every update opens the page in the browser.
