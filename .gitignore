@@ -1,0 +1,23 @@
+# Example tastes (created during development, not part of the skill)
+taste-quiet/
+taste-lab/
+
+# Packaged skill files
+dist/
+
+# Development docs
+docs/
+
+# Claude Code local settings
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
