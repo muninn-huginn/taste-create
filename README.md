@@ -17,7 +17,7 @@ The result is a fully installable Claude Code skill — a taste companion that r
 ## Install
 
 ```bash
-npx skills add arnon/taste-create
+npx skills add muninn-huginn/taste-create
 ```
 
 ## Usage
