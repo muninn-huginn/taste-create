@@ -2,6 +2,11 @@
 name: taste-create
 description: |
   Collaborative style builder that guides users through discovering and articulating their visual taste from scratch. Produces a complete style package installable as a Claude Code taste skill. Use when starting a new project and wanting to establish visual direction, when someone says "create a style", "define visual style", "build design language", "what should this look like", "help me figure out the aesthetic", or wants to establish the look and feel of a project.
+license: MIT
+compatibility: Designed for Claude Code. Requires WebFetch for URL analysis in Phase 2.
+metadata:
+  author: muninn-huginn
+  version: "1.0"
 ---
 
 # Taste Create
